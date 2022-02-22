@@ -3,6 +3,8 @@ from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
 
+## Try first dag from gitsync
+
 def print_hello():
     return 'Hello world from first Airflow DAG!'
 
